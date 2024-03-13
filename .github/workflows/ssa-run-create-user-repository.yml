@@ -41,6 +41,7 @@ jobs:
   create_repo_job_user_token:
     runs-on: ubuntu-latest
     permissions: write-all
+    environment: prod
     steps:
       - name: Print parameters
         run: |
